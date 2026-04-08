@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "FacebookEyeTracker: A Pipeline for Collecting, Processing, and Visualizing Eye-Tracking Data on Social Media Content"
+abstract: >-
+  Research pipeline for collecting, processing, and visualizing
+  eye-tracking data on social media content using Tobii Pro hardware.
+  Generates heatmaps and scanpath visualizations to analyze where
+  users focus their attention on social media feeds.
+authors:
+  - family-names: Breguel
+    given-names: Sebastian
+    email: sebabreguel@uc.cl
+    affiliation: "Pontificia Universidad Catolica de Chile"
+    orcid: ""
+version: "0.2.0"
+date-released: "2024-01-01"
+license: CC-BY-NC-4.0
+repository-code: "https://github.com/sebastianbreguel/FacebookEyeTracker"
+keywords:
+  - eye-tracking
+  - tobii
+  - heatmap
+  - scanpath
+  - gaze
+  - visualization
+  - HCI
+  - UX-research
+  - social-media
+  - attention-analysis

@@ -1,0 +1,104 @@
+[project]
+name = "facebook-eye-tracker"
+version = "0.2.0"
+requires-python = ">=3.10"
+description = "Eye-tracking data collection and visualization pipeline for analyzing user attention on social media content using Tobii Pro hardware"
+authors = [{ name = "Sebastian Breguel", email = "sebabreguel@uc.cl" }]
+readme = "README.md"
+keywords = [
+    "eye-tracking",
+    "tobii",
+    "heatmap",
+    "scanpath",
+    "gaze",
+    "visualization",
+    "HCI",
+    "UX-research",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Scientific/Engineering :: Human Machine Interfaces",
+    "Intended Audience :: Science/Research",
+]
+
+[project.license]
+text = "CC BY-NC 4.0"
+
+[project.urls]
+Repository = "https://github.com/sebastianbreguel/FacebookEyeTracker"
+
+dependencies = [
+    "matplotlib>=3.7",
+    "numpy>=1.24",
+    "pandas>=1.5",
+    "pyautogui>=0.9",
+    "requests>=2.28",
+    "tobii-research>=2.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14",
+    "ty",
+    "bandit>=1.8",
+    "pre-commit>=4.2",
+]
+
+# =============================================================================
+# Ruff — linting & formatting (replaces black, isort, flake8, pyupgrade)
+# =============================================================================
+[tool.ruff]
+line-length = 120
+fix = true
+target-version = "py310"
+exclude = [".git", ".venv", "__pycache__", "single_post_test", "*.ipynb"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "W",   # pycodestyle warnings
+    "UP",  # pyupgrade
+    "C4",  # flake8-comprehensions
+    "I",   # isort
+    "TID", # flake8-tidy-imports
+    "B",   # flake8-bugbear
+    "SIM", # flake8-simplify
+    "N",   # pep8-naming
+    "S",   # flake8-bandit (security)
+]
+fixable = ["ALL"]
+ignore = [
+    "N999",  # module names use camelCase (legacy convention)
+    "S603",  # subprocess calls are intentional in this pipeline
+    "S607",  # partial executable path is fine for sys.executable
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+lines-after-imports = 2
+
+# =============================================================================
+# ty — type checking (replaces mypy)
+# =============================================================================
+[tool.ty.environment]
+python-version = "3.10"
+
+[tool.ty.rules]
+unresolved-import = "warn"
+
+# =============================================================================
+# Bandit — security scanning
+# =============================================================================
+[tool.bandit]
+exclude_dirs = [".venv", "__pycache__", "single_post_test"]
+skips = ["B404", "B603", "B607"]

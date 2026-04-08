@@ -1,0 +1,11 @@
+[project]
+name = "basic-neuronal-network"
+version = "1.0.0"
+description = "Three implementations of the same neural network: pure Python, NumPy, and PyTorch"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+numpy = ["numpy>=1.26", "matplotlib>=3.8"]
+torch = ["torch>=2.2", "torchvision>=0.17", "matplotlib>=3.8"]
+all = ["numpy>=1.26", "matplotlib>=3.8", "torch>=2.2", "torchvision>=0.17"]

@@ -1,0 +1,56 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Astral Software Inc.}(2024)]{uv2024}
+{Astral Software Inc.}
+\newblock uv: An extremely fast {Python} package installer and resolver, 2024.
+\newblock URL \url{https://github.com/astral-sh/uv}.
+\newblock Accessed: 2024.
+
+\bibitem[Dalmaijer et~al.(2014)Dalmaijer, Mathôt, and Van~der
+  Stigchel]{dalmaijer2014pygaze}
+Edwin~S. Dalmaijer, Sebastiaan Mathôt, and Stefan Van~der Stigchel.
+\newblock {PyGaze}: An open-source, cross-platform toolbox for minimal-effort
+  programming of eyetracking experiments.
+\newblock \emph{Behavior Research Methods}, 46\penalty0 (4):\penalty0 913--921,
+  2014.
+\newblock \doi{10.3758/s13428-013-0422-2}.
+
+\bibitem[Duchowski(2017)]{duchowski2017eye}
+Andrew~T. Duchowski.
+\newblock \emph{Eye Tracking Methodology: Theory and Practice}.
+\newblock Springer, 3rd edition, 2017.
+\newblock \doi{10.1007/978-3-319-57883-5}.
+
+\bibitem[Holmqvist et~al.(2011)Holmqvist, Nystr{\"o}m, Andersson, Dewhurst,
+  Jarodzka, and van~de Weijer]{holmqvist2011eye}
+Kenneth Holmqvist, Marcus Nystr{\"o}m, Richard Andersson, Richard Dewhurst,
+  Halszka Jarodzka, and Joost van~de Weijer.
+\newblock \emph{Eye Tracking: A Comprehensive Guide to Methods and Measures}.
+\newblock Oxford University Press, 2011.
+
+\bibitem[Noton and Stark(1971)]{noton1971scanpaths}
+David Noton and Lawrence Stark.
+\newblock Scanpaths in eye movements during pattern perception.
+\newblock \emph{Science}, 171\penalty0 (3968):\penalty0 308--311, 1971.
+\newblock \doi{10.1126/science.171.3968.308}.
+
+\bibitem[Salvucci and Goldberg(2000)]{salvucci2000identifying}
+Dario~D. Salvucci and Joseph~H. Goldberg.
+\newblock Identifying fixations and saccades in eye-tracking protocols.
+\newblock In \emph{Proceedings of the 2000 Symposium on Eye Tracking Research
+  and Applications (ETRA)}, pages 71--78, 2000.
+\newblock \doi{10.1145/355017.355028}.
+
+\bibitem[Wooding(2002)]{wooding2002fixation}
+David~S. Wooding.
+\newblock Fixation maps: Quantifying eye-movement traces.
+\newblock \emph{Eye Tracking Research and Applications Symposium (ETRA)}, pages
+  31--36, 2002.
+\newblock \doi{10.1145/507072.507078}.
+
+\end{thebibliography}

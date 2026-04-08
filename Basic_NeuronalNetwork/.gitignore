@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Downloaded MNIST data
+data/mnist/
+data/mnist_torch/
+
+# Generated weights
+data/weights_numpy/
+data/weights_torch/
+
+# Generated plots
+*.png
+
+# uv
+.python-version
+uv.lock
