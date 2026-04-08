@@ -1,21 +1,21 @@
 # UC — Pontificia Universidad Católica de Chile
 
-Índice de proyectos académicos desarrollados durante mi paso por la UC.
+Index of academic projects developed during my time at UC.
 
-## Proyectos
+## Projects
 
-### [Data-Mining-IIC2433](https://github.com/sebastianbreguel/Data-Mining-IIC2433)
-Tareas y proyectos del curso **IIC2433 – Minería de Datos**. Incluye preprocesamiento, clasificación, clustering y análisis exploratorio.
+### [Data-Mining-IIC2433](./Data-Mining-IIC2433)
+Assignments and projects from **IIC2433 – Data Mining**. Covers preprocessing, classification, clustering, and exploratory data analysis.
 
-### [Data-Structures-And-Algorithms](https://github.com/sebastianbreguel/Data-Structures-And-Algorithms)
-Implementaciones de estructuras de datos y algoritmos clásicos del curso de **Estructuras de Datos y Algoritmos**.
+### [Data-Structures-And-Algorithms](./Data-Structures-And-Algorithms)
+Implementations of classic data structures and algorithms from the **Data Structures and Algorithms** course.
 
-### [Basic_NeuronalNetwork](https://github.com/sebastianbreguel/Basic_NeuronalNetwork)
-Implementación desde cero de una red neuronal básica con fines educativos (forward/backward pass, entrenamiento).
+### [Basic_NeuronalNetwork](./Basic_NeuronalNetwork)
+From-scratch implementation of a basic neural network for educational purposes (forward/backward pass, training loop).
 
-### [FacebookEyeTracker](https://github.com/sebastianbreguel/FacebookEyeTracker)
-Proyecto de eye-tracking sobre la interfaz de Facebook — análisis de atención visual del usuario.
+### [FacebookEyeTracker](./FacebookEyeTracker)
+Eye-tracking project over the Facebook interface — analysis of user visual attention.
 
 ---
 
-Repos originales mantenidos por separado; este repositorio sirve como índice/portfolio.
+Original repositories are kept separately; this repo serves as an index/portfolio.
